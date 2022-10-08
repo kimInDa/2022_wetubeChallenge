@@ -23,6 +23,7 @@
   "dependencies": {
     "@ffmpeg/core": "^0.8.5",
     "@ffmpeg/ffmpeg": "^0.9.7",
+    "aws-sdk": "~2.895.0",
     "bcrypt": "^5.0.1",
     "connect-mongo": "^4.6.0",
     "dotenv": "^16.0.2",
@@ -33,7 +34,8 @@
     "i": "^0.3.7",
     "mongoose": "^6.5.5",
     "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1",
+    "multer": "~1.4.2",
+    "multer-s3": "~2.9.0",
     "node-fetch": "^2.6.1",
     "pug": "^3.0.2",
     "regenerator-runtime": "^0.13.9"
@@ -43,6 +45,7 @@
     "@babel/core": "^7.18.13",
     "@babel/node": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
+    "@types/multer-s3": "^3.0.0",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "mini-css-extract-plugin": "^2.6.1",
