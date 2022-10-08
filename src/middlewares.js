@@ -6,7 +6,6 @@ const s3 = new aws.S3({
   condentials: {
     accessKeyId: process.env.AWS_ID,
     secretAccessKey: process.env.AWS_SECRET,
-    region: "ap-northeast-2",
   },
 });
 
