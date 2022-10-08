@@ -160,7 +160,6 @@ export const postEdit = async (req, res) => {
     body: { name, email, username, location },
     file,
   } = req;
-  console.log(file);
   // const i = req.session.user.id;
   // const { name, email, username, location } = req.body;
 
