@@ -56,6 +56,7 @@ export const postEdit = async (req, res) => {
   if (!video) {
     return res.status(403).render("404", { pageTitle: "Video not found." });
   }
+  console.log(video.owner, _id);
   if (String(video.owner) !== String(_id)) {
     req.flash("error", "You are not the owner of the video.");
     return res.status(403).redirect("/");
