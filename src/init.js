@@ -1,3 +1,4 @@
+import "../.env";
 import "regenerator-runtime";
 import "dotenv/config";
 // require("dotenv").config();
